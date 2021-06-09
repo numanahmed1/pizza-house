@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Header = () => {
   const [toggleBtn, setToggleBtn] = useState(false);
   return (
-    <nav>
+    <nav className="bg-gray-200 text-gray-700">
       <div className="max-w-7xl mx-auto py-4 px-5 md:px-3 lg:px-0">
         <div className="flex justify-between items-center">
           {/* logo */}
